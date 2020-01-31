@@ -1,4 +1,24 @@
 # Introduction HTML/CSS
+* Is it hard to learn?
+  * According to author, no (I guess we'll find out)
+* The structure of this book
+  * Covers HTML, CSS, and practical
+* How people access the web
+  * **Web broswers
+    * firefox, chrome, ie, safari
+    * Web address leads to web page
+    * People don't update browsers regularly. Can't rely on visitors to your site being able to use latest functionality offered in browsers
+   * **Web Server
+     * Computer that hosts website
+   * **Web hosting
+     * companies who host websites for a fee
+   * **Screen readers
+     * Programs that read out contents of a computer screen
+* How websites are created
+  * HTML, CSS, JS, Flash
+* How the web works
+  * ISP, DNS (Domain Name System)
+  * DNS is like a phone book. Connects you to the website you're looking for
 
 # Chapter 1 HTML/CSS
 
