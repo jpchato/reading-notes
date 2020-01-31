@@ -4,15 +4,15 @@
 * The structure of this book
   * Covers HTML, CSS, and practical
 * How people access the web
-  * **Web broswers
+  * **Web broswers**
     * firefox, chrome, ie, safari
     * Web address leads to web page
     * People don't update browsers regularly. Can't rely on visitors to your site being able to use latest functionality offered in browsers
-   * **Web Server
+   * **Web Server**
      * Computer that hosts website
-   * **Web hosting
+   * **Web hosting**
      * companies who host websites for a fee
-   * **Screen readers
+   * **Screen readers**
      * Programs that read out contents of a computer screen
 * How websites are created
   * HTML, CSS, JS, Flash
@@ -189,13 +189,13 @@
             * Link should be big enough to click on and visually distinct from other content on the page
         * Consistent
             * Primary navigation should remain the same
-## Summary
-* Understand who audience is, why they're visiting the site, what info they want, and when they are likely to return
-* Site maps allow designers to plan site structure
-* Wireframes organize the info that will go on each web page
-* Design is communication. Visual hierarchy helps express what you are trying to say
-* Color, size, and style help make information distinct
-* Grouping and similarity help simplify the info being presented
+* Summary
+  * Understand who audience is, why they're visiting the site, what info they want, and when they are likely to return
+  * Site maps allow designers to plan site structure
+  * Wireframes organize the info that will go on each web page
+  * Design is communication. Visual hierarchy helps express what you are trying to say
+  * Color, size, and style help make information distinct
+  * Grouping and similarity help simplify the info being presented
 
 # Introduction JS
 
