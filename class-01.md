@@ -13,7 +13,7 @@
 * HTML uses elements to describe the structure of pages
   * Tags are like boxes. They tell you something about the information contained between the opening and closing tags.
 * A closer look at tags
-  *<p></p>
+  * `<p></p>`
 * Attributes tell us more about elements
 * Body, head, & title
 * Creating a web page on a pc
