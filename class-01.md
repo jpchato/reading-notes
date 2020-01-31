@@ -14,8 +14,21 @@
   * Tags are like boxes. They tell you something about the information contained between the opening and closing tags.
 * A closer look at tags
   * `<p></p>`
+  * < left-angle bracket, > right-angle bracket, p character, / forward slash, `<p>` opening tag, `</p>` closing tag
 * Attributes tell us more about elements
+ * Attributes provide additional information about the contents of an element
+ * They appear on opening tag of theleement and are made of two parts: **name** and **value** 
+ * `<p lang="en-us"></p>` 
+ * lang is the attribute name
+ * en-us is the attribute value
 * Body, head, & title
+ * `<body></body>`
+  * Everything between these tags in showing in the main browser window
+ * `<head></head>`
+  * This contains information about the page. 
+  * Usually holds a `<title></title>` tag
+ * `<title></title>`
+  * Usually shown in top of browser or on page tab
 * Creating a web page on a pc
 * Code in a content management system
 * Looking at how other sites are built
