@@ -23,12 +23,12 @@
   * en-us is the attribute value
 * Body, head, & title
   * `<body></body>`
-   * Everything between these tags in showing in the main browser window
+    * Everything between these tags in showing in the main browser window
   * `<head></head>`
-   * This contains information about the page. 
-   * Usually holds a `<title></title>` tag
+    * This contains information about the page. 
+    * Usually holds a `<title></title>` tag
   * `<title></title>`
-   * Usually shown in top of browser or on page tab
+    * Usually shown in top of browser or on page tab
 * Creating a web page on a pc
   * Create in notepad and open with browser
 * Looking at how other sites are built
