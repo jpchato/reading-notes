@@ -1,5 +1,5 @@
 # Code 201 Reading Notes
-This website will track my reading for course 201 for **CodeFellows**.
+This website will track my reading for **CodeFellows** course 201.
 
 To view my work from 102, please visit:
 [102 Learning Journal](https://jpchato.github.io/learning-journal/)
