@@ -17,7 +17,7 @@
   * < left-angle bracket, > right-angle bracket, p character, / forward slash, `<p>` opening tag, `</p>` closing tag
 * Attributes tell us more about elements
  * Attributes provide additional information about the contents of an element
- * They appear on opening tag of theleement and are made of two parts: **name** and **value** 
+ * They appear on opening tag of the element and are made of two parts: **name** and **value** 
  * `<p lang="en-us"></p>` 
  * lang is the attribute name
  * en-us is the attribute value
@@ -30,8 +30,9 @@
  * `<title></title>`
   * Usually shown in top of browser or on page tab
 * Creating a web page on a pc
-* Code in a content management system
+ * Create in notepad and open with browser
 * Looking at how other sites are built
+ * right click>view source 
 * Summary
   * HTML pages are text documents
   * HTML uses tags to give information special meaning 
