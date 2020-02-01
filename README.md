@@ -5,7 +5,7 @@ To view my work from 102, please visit:
 [102 Learning Journal](https://jpchato.github.io/learning-journal/)
 
 ### Table of Contents
-1. Reading One
+1. [Reading One](https://jpchato.github.io/reading-notes/class-01)
 2. Reading Two
 3. Reading Three
 4. Reading Four
