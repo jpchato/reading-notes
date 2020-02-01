@@ -217,35 +217,73 @@
 
 ### 1A What is a script and how do I create one?
 * A script is a series of instructions
+  * Comparable to recipes, handbooks, and manuals
+  * Scripts are made up of instructions a computer can follow step-by-step
 * Writing a script
+  1. Define the goal
+  2. Design the script
+  3. Code each step
 * Designing a script: tasks
+  * Once you know the goal of a script, work out the individual tasks needed to achieve it
 * Designing a script: steps
+  * Each task can be broken down into steps
 * From steps to code
+  * Computers solve problems **programmatically**
+    * They follow a series of instructions, one after another
 * Designing a goal and designing the script
+  * First detail the goals for a script
 * Sketching out the tasks in a flowchart
+  * Scripts will need to perform different tasks in different situations. Use flowcharts to work out how tasks will fit together
 * Summary
+  * A script is a series of instructions that computer can follow in order to acheive a goal
+  * When the script runs, it doesn't always use all the instructions. It might only use a subset of the instructions
+  * Computers solve tasks programmatically 
+  * Script writing: goal>series of tasks>step by step buide for each task (flowhcarts help)
 
 ### 1B How do computers fit in with the world around them?
 * Computers create models of the world using data
+  * Computers have no predefined concept of what a hotel, car, dog, cat, hot dog, pizza, etc. is
+  * Models are created using data
 * Objects and properties
+  * **Objects**
+    * Physical things can be repreesnted as objects in computer programming
+    * Things
+  * **Properties**
+    * Each property has a **name** and **value** 
+    * Characteristics
 * Events
+  * Computer's way of saying "A thing just happened"
+  * Programmers choose which events their script responds to
 * Methods
+  * Represent how people interact with an object in the real world
+  * Need to know how to ask the questions and how to interpret answers you might receive
 * Putting it all together
+  * Computers use data to create models of things in the real world
+  * Events, methods, and properites of an object all relate to each other
+    * Events can trigger methods, and methods can retrieve or update an object's properties
 * Web browsers are programs built using objects
-* The document objecct represents an HTML page
+* The document object represents an HTML page
+  * Using the `document` object, you can access and change what content users see on the page and respond to how they interact with it
 * How a browser sees a web page
+  1. Receive a page as html code
+  2. Create a model of the page and store it in memory
+  3. Use a rendering engine to show the page on screen
 * Summary
-
+  * Computers create models of the world using data
+  * The models use objects to represent physical things. Objects can have: properties that tell us about the object; methods that perform tasks using the properties of that object; events which are triggered when a user interacts with the computer
+  * Programmers can write code to say "When this event occurs, run that code."
+  * Web browsers use html markup to create a model of the web page. Each element creates its own node (which is a kind of object).
+  * To make web pages interactive, you write code that uses the browser's model of the web page
+  
 ### How do I write a script for a web page?
 * How HTML, CSS, and js fit together
+  * Each language forms a separate layer with a different purpose. html>css>js
 * Progressive enhancement
-* Creating a basic javascript
-* Linking to a javascript file from an html page
-* The source code is not ammended
-* Placing the script in the page
-* How to use objects and methods
+  * The languages build upon each other to create content
 * Javascript runs where it is found in the html
 * Summary
+  * Keep js code in its own js file. Js files are text files but they have the .js extension
+  * HTML <script> element is used in html pages to tell the browser to load the js file
 
   
 
