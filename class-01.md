@@ -199,5 +199,53 @@
 
 # Introduction JS
 
+## Javascript
+
+* How JS makes web pages more interactive
+    1. **Access** content
+        * js can slect any element, attribute, or text from an html page
+    2. **Modify** content
+        * js can add to elements, attributes, and text of page (or remove)
+    3. **Program** rules
+        * Create a set of steps that browser will follow which allows it to modify the page
+    4. **React** to events
+        * Can have a script run when a specific event occurs
+
 # Chapter 1 JS
+
+## The ABC of Programming
+
+### 1A What is a script and how do I create one?
+* A script is a series of instructions
+* Writing a script
+* Designing a script: tasks
+* Designing a script: steps
+* From steps to code
+* Designing a goal and designing the script
+* Sketching out the tasks in a flowchart
+* Summary
+
+### 1B How do computers fit in with the world around them?
+* Computers create models of the world using data
+* Objects and properties
+* Events
+* Methods
+* Putting it all together
+* Web browsers are programs built using objects
+* The document objecct represents an HTML page
+* How a browser sees a web page
+* Summary
+
+### How do I write a script for a web page?
+* How HTML, CSS, and js fit together
+* Progressive enhancement
+* Creating a basic javascript
+* Linking to a javascript file from an html page
+* The source code is not ammended
+* Placing the script in the page
+* How to use objects and methods
+* Javascript runs where it is found in the html
+* Summary
+
+  
 
