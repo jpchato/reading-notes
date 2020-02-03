@@ -1,0 +1,234 @@
+# Ch 2 Text
+
+- Intro
+  - **structural markup**
+    - the elements that you can use to describe headings and paragraphs
+  - **semantic markup**
+    - provides extra info
+- Headings
+  - `<h1><h2><h3><h4><h5><h6></h#>`
+  - Six levels at different sizes
+- Paragraphs
+  - `<p></p>`
+  - Place around surrounding words you want to be a paragraph
+  - Each paragraph begins on a new line with some space between paragraphs
+- Bold and Italic
+  - `<b></b><i></i>`
+  - Bold presents text differently. Sometimes indicates keywords
+  - Italics can represent text that would be said differently fromt the surrounding content.
+- Superscript and Subscript
+  - `<sup></sup><sub></sub>`
+  - `<sup>` is used to contain characters that should be superscript such as the suffixes of dates or for exponents
+  - `<sub>` is used for subtext. Like chemical formulas H<sub>2</sub>O = H`<sub>`2`</sub>`O
+- White Space
+  - **white space collapsing** 
+    - two or more spaces causes browsers to leave only one space
+- Line breaks and Horizontal Rules
+  - `<br  /><hr  />`
+  - `<br  />`
+    - Breaks a line and starts a new paragraph
+  - `<hr  />`
+    - Creates a line between text signalling a different topic
+- Visual Editors and their code views
+  - VS code
+- Semantic markup
+  - Text elements for the coder and code reader
+  - Does not affect the code
+  - e.g. `<!--x-->`
+- Strong and emphasis
+  - `<strong><em>`
+  - strong is bold, em is italics
+- Quotations 
+  - `<blockquote><q>`
+  - blockquote used for long quotes
+  - browsers indent the blockquotes
+  - `<q>` wraps quotation marks around text
+- Abbreviations and acronyms
+  - `<abbr>`
+  - Use an acronym, but hovering over the acronym shows what the acronym means
+- Citations and definitions
+  - `<cite><dfn>`
+  - Cite for books
+  - defines new instance of a term
+- Author details
+  - embed an email address
+  - `<address>`
+- Changes to content
+  - `<ins><del><s>`
+  - show reader the changes
+- Summary
+  - HTML elements are used to describe the structure of the page
+  - They also provide semantic information
+
+# Ch 10 Introducing CSS
+
+- Intro
+  - CSS allows you to style web pages
+  - Cascading Style Sheets
+- Understanding css: thinking inside the box
+  - imagine an invisible box around every element
+  - can style with box and inline elements
+- CSS associates style rules with html elements
+  - `p{
+      font-family: Arial;}`
+  - p is the selector
+  - font-family: Arial is the declaration
+- CSS properties affect how elements are displayed
+  - font-family is the property
+  - arial is the value
+- Using external css
+  - `<link>` a style page in the head of html document 
+- Using internal css
+  - style inside the html text
+- CSS selectors
+  - universal selector `*`, type selector `h1, h2, h3`, class selector `.note, p. note`, id selector `#`, child selector `li>a`, descendant selctor `p a`, adjacent sibling selector `h1+p`, general sibling selector `h1~p`
+- How CSS rules cascade
+  - Last rule overrides previous rules
+  - more specific rules take precedence over broader rules. h1 is more specific than p
+  - `!important` after any property value to indicate it should be considered more important than other rules that apply to the same element
+- Inheritance
+  - attributes given to parent elements will be inherited by children elements (usually)
+- Why use external style sheets?
+  - Multiple web pages can share same sheet
+  - Same code does not need to be repeated in every page
+- Different versions of css and browser quirks
+  - not all browsers are the same.  css will not always display the same way across browsers
+- Summary
+  - CSS treats each html element as if it appears inside its own box and uses rules to indicate how that element should look
+  - rules are made up of selectors (that specify the elements the rule applies to) and declarations (that indicate what these elements should loo like)
+  - Different types of selectors allow you to target your rules at different eleemtns
+  - Declarations are made up of two parts: the properties of the element that you want to change, and the values of those properties
+  - CSS rules usually appear in a separate document, although they may appear within an html page
+
+  # Ch 2 Basic Javascript Instructions
+  - Intro
+    - How to give a browser instructions for it to follow
+  - Statements
+    - Each individual step is known as a **statement**
+    - statements surrounded by curly braces `{}` are known as **code blocks**
+  - Comments
+    - **comments** help the coder understand what the code does
+    - `//`
+  - What is a variable?
+    - Data
+    - Scripts temporarily store data  that can be used for other functions
+  - Variables: how to declare them
+    - `var quantity;`
+    - var = variable keyword
+    - quantity =  variable name
+  - Variables: how to assign them a value
+    - `quantity = 3;`
+    - quantity = variable name
+    - = is assignment operator
+    - 3 is variable value
+  - Data types
+    - Numeric data type
+      - numbers (1,2,3,4,5...)
+    - String data type
+      - stuff in quotes 'seven', 'hello', 'howdy, what's your name' 
+    - Boolean data type
+      - true/false
+  - Using a variable to store a number
+    - Once a value has been assigned to a variable, you can use the variable name to represent the value
+  - Using a variable to store a string
+  - Using quotes inside a string
+    - use escape characters to use qutoes inside strings
+    - `\` before any type of quote mark that appears within a string
+  - Using a variable to store a boolean
+  - Shorthand for creating variables
+    - `var price, quantity, total;`
+    - don't have to write `var` three times
+  - Changing the value of a variable
+    - use function name and equal sign
+  - Rules for naming variables
+    - 6 rules for naming variables
+      1. The name must being with a letter, dollar sign $, or an underscore. It must not start with a number
+      1. The name can contain letters, numbers, dollar signs, or an underscore. `-` and `.` not allowed in variable name
+      1. You cannot use keywords or reserved words. Keywords are special words that tell the interpreter to do something. 
+      1. All variables are case sensitive, so score and Score would be different variable names. Bad practice to create two variables with the same name but different capitalization
+      1. Use a name that describes the kind of information that the variable stores.
+      1. If your variable name is made up of more than one word, use a capital letter for the first letter of every word after the first word. firstName, colorTacoNacho
+  - Arrays
+    - Store lists of variables
+    - Use arrays when working with a list or a set of values that are related to each other
+  - Creating an array
+    - pg 71
+    - Values are assigned to the array inside a pair of `[]` brackets and each value is separated by a `,` 
+    - You can store a string, a number, and a boolean all in the same array
+  - Values in arrays
+    - Each item in an array is automatically given a number called an **index**
+    - Index begins at 0
+    - pg 72
+  - Accessing and changing values in an array
+    - `var[#] = 'text'`
+    - Changes value in an array
+  - Expressions
+    - Evaluates into a single value
+    - Expressions that jsut assign a value to a variable
+    - Expressions that use two or more values to retun a single value
+  - Operators
+    - They allow programmers to create a single value from one or more values
+    - assignment operators, arithmetic operators, string operators, comparison operators, logical operators
+  - Arithmetic Operators
+  - Long list on p. 76
+  - `+ - / * ++ -- %`
+  - String Operator
+    - `+` is the only string operator
+    - Used to join strings on either side
+    - **Concatenation** is the process of joining together two or more strings to create one new string
+  - Summary
+    - A script is made up of a series of statements. Each statement is like a step in a recipe.
+    - Scripts contain very precise instructions. For example, you might specify that a value must be remembered before creating a calculation using that value.
+    - Variables are used to temporarily store pieces of information used in the script
+    - Arrays are special types of variables that store more than one piece of related information
+    - JavaScript distinguishes between number (0-9), strings (text), and Boolean values (true or false)
+    -Expressions evaluate into a single value
+    - Expressions rely on operators to calculate a value
+
+# Ch 4 Decisions & Loops
+- Intro
+  - You can create and control the flow of data in scripts to handle different situations
+  - evaluations, decisions, and loops
+- Decision Making
+  - Flowcharts help plan for occassions where decisions need to be made in the script
+  - **Condition** determines which path to take when a decision needs to be made.
+- Evaluating conditions and conditional statements
+  - Two components to a decision:
+    1. An expression is evaluated, which returns a value
+        - In order to make a decision, your code checks the current status of the script. This is commonly done by comparing two values using a comparison operator which returns a value of true or false
+    2. A conditional statement says what to do in a given situation
+        - A conditional statement is based on a concept of if/then/else; *if* a condition is met, *then* your code executes one or more statement, *else* your code does something different
+- comparison operators: evaluating conditions
+  - is equal to `==`
+  - is not equal to `!=`
+  - strict equal to `===`
+  - strict not equal to `!==`
+  - greater than `>`
+  - less than `<`
+  - greater than or equal to `>=`
+  - less than or equal to `<=`
+- Structuring comparison operators
+  - `(score >= pass)`
+  - `()` enclosing parentheses
+  - score is the operand
+  - `>=` is the comparison operator
+  - pass is also an operand
+- Using expressions with comparison operators
+  - The operand can be an expression, because an expression evaluates into a single value
+  - Kind of like math 
+- Logical operators 
+  - Logical and `&&`
+    - If both expressions evaluate true then the expression returns true. If one is false, the whole it returns false
+  - Logical or `||`
+    - If either expression evaluates true then the expression returns true (even if one is false)
+  - Logical Not `!`
+    - Reverses the state of an expression
+  - Comparison operators return single values of true or false (usually). However, logical operators allow you to compare the results of more than one comparison operator
+- if statements
+  - Evaluates or checks a condition
+  - If condition evaluates true, statements in following code block are executed
+- if...else statements 
+  - checks a condition
+  - If true first code block executed
+  - if false second block executed
+  
