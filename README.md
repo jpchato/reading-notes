@@ -8,7 +8,7 @@ To view my work from 102, please visit:
 1. [Reading One](https://jpchato.github.io/reading-notes/class-01)
 2. [Reading Two](https://jpchato.github.io/reading-notes/class-02)
 3. [Reading Three](https://jpchato.github.io/reading-notes/class-03)
-4. Reading Four
+4. [Reading Four](https://jpchato.github.io/reading-notes/class-04)
 5. Reading Five
 6. Reading Six
 7. Reading Seven
