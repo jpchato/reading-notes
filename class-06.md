@@ -45,3 +45,12 @@
   * An element node can contain multiple text nodes and child elements that are siblings of each other
   * In older browsers, implementation of the DOM is inconsistent
   * Browsers offer tools for viewing the DOM tree
+
+  # Article: Understanding the Problem Domain is the Hardest Part of Programming
+  * A familiar problem
+  * Why problem domains are hard
+    * The world is a messy place. Problem domains are hard to understand depending on your view point.
+  * Programming is easy if you understand the problem domain
+    * Understanding the problem is the most critical piece to solving the problem.
+  * What can you do about it?
+    * Focus on a particular part of the problem, not the whole thing. Piece it out.
