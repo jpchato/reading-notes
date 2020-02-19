@@ -18,5 +18,5 @@ To view my work from 102, please visit:
 11. [Reading Eleven](https://jpchato.github.io/reading-notes/class-11)
 12. [Reading Twelve](https://jpchato.github.io/reading-notes/class-12)
 13. [Reading Thirteen](https://jpchato.github.io/reading-notes/class-13)
-14. Reading Fourteen
-15. Reading Fifteen
+14. [Reading Fourteen](https://jpchato.github.io/reading-notes/class-14)
+15. [Reading Fifteen](https://jpchato.github.io/reading-notes/class-15)
