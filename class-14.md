@@ -15,4 +15,12 @@
 
 
 # CSS Animations
-
+* Transforms
+  * Available in 2d and 3d
+  * Can rotate and skew
+  * Can combine transformations
+* Transitions
+  * Alter the appearance and behavior of an element whenever a state change occurs
+  * Not all properties may be transitioned
+* 6 Buttons animated
+  * JS/CSS combo that creates moving buttons
